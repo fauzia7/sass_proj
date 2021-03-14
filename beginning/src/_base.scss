@@ -1,0 +1,18 @@
+
+body {
+    // @include headerImage('../images/bg.gif');
+    font-family:  $font-body , sans-serif;
+    font-size:1em;
+    line-height:2em;
+    margin:0;
+    background:url('../images/bg.gif') $background  repeat-x;
+
+} 
+main {
+      width:940px;
+       @include margin() ;
+       padding:0 10px;
+      
+        
+    }
+

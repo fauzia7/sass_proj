@@ -1,0 +1,30 @@
+// /* FOOTER */
+.greybar                    {  @include footerWidHei(100%, 90px);
+                         
+                              background:$footer_bar ;
+                              clear:both;
+                              padding-top:30px;}
+
+footer                      { @include footerWidHei(100%, 120px);
+                               
+                              background:$footer;
+                              text-align:center;
+                              color:$background;
+                              padding-top:50px;}
+
+.social-media               {  @include margin() ;
+                              width:165px;}
+
+.social-media div           { float:left;
+                              margin-right:5px;}
+
+.social-media a             {  @include footerWidHei(36px, 36px);
+                              display:block;
+                           
+                              text-indent:-9999px;}
+
+.social-media div.one       {background:url('../images/social-media.png') 0 0;}
+
+.social-media div.two 	    {background:url('../images/social-media.png') -38px 0;}
+.social-media div.three     {background:url('../images/social-media.png') -76px 0;}
+.social-media div.four 	    {background:url('../images/social-media.png') -114px 0;}
